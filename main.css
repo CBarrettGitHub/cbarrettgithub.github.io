@@ -1,5 +1,7 @@
-body {
-  background-color: #002d3b;
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #002d3b;
+  }
 }
 
 .topnav {
