@@ -1,19 +1,31 @@
+body {
+  margin:0;
+  pading:0;
+  background-color: #002d3b;
+}
+
 @media only screen and (max-width: 768px) {
   body {
-    background-color: #002d3b;
   }
 }
 
-.topnav {
-  background-color: #000000;
-  overflow: hidden;
+@media only screen and (min-width: 769px) {
+  body {
+  }
 }
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
+.navbar {
+  padding: 18px 18px 18px 48px;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.navbar a {
+  font-family: 'Open Sans', sans-serif;
+  float: left
+  display: block;
+  color: white;
   text-align: center;
-  padding: 5% 5%;
+  padding: 15px;
   text-decoration: none;
-  font-size: 17px;
 }
